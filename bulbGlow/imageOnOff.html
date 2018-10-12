@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>onOFF</title>
+	<script type="text/javascript">
+		function on(){
+			document.getElementById('image').src='glow.png';
+		}
+		function off(){
+			document.getElementById('image').src='off.jpg';
+		}
+	</script>
+</head>
+<body>
+	<img src="off.jpg" width="400px" height="400px" id="image"/>
+	<button onclick="on()">glow</button>
+	<button onclick="off()">Off</button>
+</body>
+</html>
